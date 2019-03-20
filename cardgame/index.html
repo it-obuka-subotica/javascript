@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Card Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Card Game</h1>
+    </header>
+
+    <section class="container">
+        <h1>Where is the red  ace?</h1>
+		  <div class="cards">
+			  <img id="1" src="card0.jpg" onclick="guess(1)">
+			  <img id="2" src="card0.jpg" onclick="guess(2)">
+			  <img id="3" src="card0.jpg" onclick="guess(3)">
+			  <img id="4" src="card0.jpg" onclick="guess(4)">
+		  </div>
+		  <div id="winnerText" class="winn"></div>
+		  <div id="winner"></div>
+    </section>
+    
+
+    <script src="main.js"></script>
+  </body>
+</html>
